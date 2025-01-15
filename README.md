@@ -2,12 +2,16 @@
 In this lab you will create a bounded buffer, producer and consumer in Python to model the producer-consumer relationship.
 
 ## Set Up
-Create new anaconda environment using these commands
-	conda create –name prod_cons_buff python=3.13.1
-
-Pull starter code from GitHub classroom
-
-Open in VS code and switch to the prod_cons_buff anaconda environment
+<ol>
+	<li>Create new anaconda environment using these commands</li>
+	<ul>
+		<li>conda create –name prod_cons_buff python=3.13.1</li>
+		<li>conda activate prod_cons_buff</li>
+	</ul>
+	<li>Pull starter code from GitHub Classroom</li>
+	<li>Open in VS code and switch to the prod_cons_buff anaconda environment</li>
+	<li>When the lab is complete, push code to GitHub Classroom</li>
+</ol>
 
 ## Instructions
 <ol>
