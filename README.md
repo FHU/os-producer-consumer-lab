@@ -44,6 +44,7 @@ In this lab you will create a bounded buffer, producer and consumer in Python to
     <li><b>Methods</b></li>
       <ol>
         <li>produce: Generates a random number between 0 and 100 and adds to buffer.</li>
+	<li>Constraint: Remember, the producer can't add items to the buffer if the buffer is full.</li>
       </ol>
   </ol>
   <br>
@@ -57,6 +58,7 @@ In this lab you will create a bounded buffer, producer and consumer in Python to
       <li><b>Methods</b></li>
         <ol>
           <li>consume: Consumes and returns an item from the buffer.</li>
+	<li>Constraint: Remember, the consumer can't consume any items if there are no items in the buffer.</li>
         </ol>
     </ol>
 
