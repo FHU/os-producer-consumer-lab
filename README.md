@@ -1,11 +1,11 @@
 # os-producer-consumer-lab
-In this lab you will create a bounded buffer, producer and consumer in Python to model the producer-consumer relationship.
+In this lab you will create a bounded buffer, producer and consumer in Python to model the producer-consumer relationship and mimic the issues with a bounded buffer. You may collaborate with others on this lab.
 
 ## Set Up
 <ol>
 	<li>Create new anaconda environment using these commands</li>
 	<ul>
-		<li>conda create –name prod_cons_buff python=3.13.1</li>
+		<li>conda create --name prod_cons_buff python=3.13.1</li>
 		<li>conda activate prod_cons_buff</li>
 	</ul>
 	<li>Pull starter code from GitHub Classroom</li>
@@ -22,9 +22,9 @@ In this lab you will create a bounded buffer, producer and consumer in Python to
       <li><b>Attributes</b></li>
         <ol>
           <li>size: size of the buffer</li>
-          <li>items: list to store items in the buffer</li>
-          <li>in_pointer:</li>
-          <li>out_pointer:</li></ol>
+          <li>items: list to store items in the buffer.</li>
+          <li>in_pointer: initialize to 0</li>
+          <li>out_pointer: initialize to 0</li></ol>
       <li><b>Methods</b></li>
         <ol>
           <li>increment_in: increments the in pointer</li>
@@ -64,4 +64,7 @@ In this lab you will create a bounded buffer, producer and consumer in Python to
 
 
 ## Hints
-You will probably need the random and time modules.
+<ol>
+	<li>You will probably need the random module.</li>
+	<li>The size of the buffer should not change while producing and consuming.</li>
+</ol>
